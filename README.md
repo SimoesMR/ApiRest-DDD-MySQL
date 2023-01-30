@@ -1,0 +1,1 @@
+API REST em C# feito para demonstrar conhecimento em DDD (Domain-Driven Desing) com MySQL, utilizando EF 3.1 e IOC
