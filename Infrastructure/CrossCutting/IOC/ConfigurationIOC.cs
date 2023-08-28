@@ -15,11 +15,15 @@ namespace API.DDD.Infrastructure.CrossCutting.IOC
         {
             #region IOC
             builder.RegisterType<ClientApplicationService>().As<IClientApplicationService>();
-            builder.RegisterType<ProductApplicationService>().As<IOrderApplicationService>();
+            builder.RegisterType<ProductApplicationService>().As<IProductApplicationService>();
+            builder.RegisterType<OrderApplicationService>().As<IOrderApplicationService>();
+
             builder.RegisterType<ClientService>().As<IClientService>();
             builder.RegisterType<ProductService>().As<IProductService>();
+
             builder.RegisterType<ClientRepository>().As<IClientRepository>();
             builder.RegisterType<ProductRepository>().As<IProductRepository>();
+
             builder.RegisterType<ClientMapper>().As<IClientMapper>();
             builder.RegisterType<ProductMapper>().As<IProductMapper>();
 

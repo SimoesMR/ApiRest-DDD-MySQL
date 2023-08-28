@@ -7,7 +7,6 @@ using System.Collections.Generic;
 
 namespace RestApi.Controllers
 {
-    [Route("[controller]")]
     [ApiController]
     public class ClientController : ControllerBase
     {
@@ -19,22 +18,23 @@ namespace RestApi.Controllers
         {
             _clientServiceApplication = clientServiceApplication;
         }
-        // GET api/values
+       
         [HttpGet]
+        [Route("[controller]/GetAll")]
         public ActionResult<IEnumerable<string>> Get()
         {
             return Ok(_clientServiceApplication.GetAll());
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
+        [HttpGet]
+        [Route("[controller]/GetById/Id")]
         public ActionResult<string> Get(Guid id)
         {
             return Ok(_clientServiceApplication.GetById(id));
         }
 
-        // POST api/values
         [HttpPost]
+        [Route("[controller]/Insert")]
         public ActionResult Post([FromBody] ClientDto clientDto)
         {
             try
@@ -54,8 +54,8 @@ namespace RestApi.Controllers
 
         }
 
-        // PUT api/values/5
         [HttpPut]
+        [Route("[controller]/Update")]
         public ActionResult Put([FromBody] ClientDto clientDto)
         {
             try
@@ -73,8 +73,8 @@ namespace RestApi.Controllers
             }
         }
 
-        // DELETE api/values/5
         [HttpDelete()]
+        [Route("[controller]/Delete")]
         public ActionResult Delete([FromBody] ClientDto clientDto)
         {
             try
