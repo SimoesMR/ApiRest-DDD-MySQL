@@ -39,7 +39,6 @@ namespace RestApi.Controllers
                 if (productDto == null)
                     return NotFound();
 
-
                 _productServiceApplication.Add(productDto);
                 return Ok("The product has been successfully registered");
             }

@@ -40,7 +40,6 @@ namespace RestApi.Controllers
                 if (orderDto == null)
                     return NotFound();
 
-
                 _orderServiceApplication.Add(orderDto);
                 return Ok("The order has been successfully registered");
             }

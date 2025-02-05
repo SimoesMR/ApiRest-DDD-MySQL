@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F4744340-8D39-48B3-983F-9711DEA02AD0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F4744340-8D39-48B3-983F-9711DEA02AD0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{3581CD6B-AD33-482A-9CA7-8833D4D05160}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Services", "1-Services", "{3581CD6B-AD33-482A-9CA7-8833D4D05160}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{E609F931-231F-41D5-A869-F9A1971C950A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infrastructure", "3-Infrastructure", "{96792CA7-2965-44C8-821C-F7113C8CB754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi", "RestApi\RestApi.csproj", "{8C677025-73F2-47FC-8B28-3C2870F90955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi", "RestApi\RestApi.csproj", "{8C677025-73F2-47FC-8B28-3C2870F90955}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.DDD.Application", "Application\API.DDD.Application.csproj", "{DEAB4725-AF37-41CB-A054-08CEC3423D5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.DDD.Application", "Application\API.DDD.Application.csproj", "{DEAB4725-AF37-41CB-A054-08CEC3423D5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.DDD.Domain", "Domain\API.DDD.Domain.csproj", "{0CCDB056-98ED-42F3-961E-A1BB7F1DEA51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.DDD.Domain", "Domain\API.DDD.Domain.csproj", "{0CCDB056-98ED-42F3-961E-A1BB7F1DEA51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.DDD.Core", "Core\API.DDD.Core.csproj", "{C762C1F5-3761-48CF-B6FE-F439EA2B7949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.DDD.Core", "Core\API.DDD.Core.csproj", "{C762C1F5-3761-48CF-B6FE-F439EA2B7949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Services", "Domain.Services\Domain.Services.csproj", "{E2C5862C-8832-4507-8B5F-CDE663A962D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Services", "Domain.Services\Domain.Services.csproj", "{E2C5862C-8832-4507-8B5F-CDE663A962D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.DDD.Infrastructure", "Infrastructure\API.DDD.Infrastructure.csproj", "{1F071D93-A089-46C8-8E60-33D6900DD5EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.DDD.Infrastructure", "Infrastructure\API.DDD.Infrastructure.csproj", "{1F071D93-A089-46C8-8E60-33D6900DD5EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

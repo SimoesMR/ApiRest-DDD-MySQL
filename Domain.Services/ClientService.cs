@@ -1,8 +1,6 @@
 ﻿using API.DDD.Core.Interfaces.Repositorys;
 using API.DDD.Domain.Entitys;
 using Domain.Services;
-using System;
-using System.Collections.Generic;
 
 namespace API.DDD.Infrastructure.Data.Repositorys
 {
